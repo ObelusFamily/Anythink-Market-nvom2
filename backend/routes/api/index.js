@@ -1,6 +1,6 @@
 var router = require('express').Router();
 
-router.use('/users', require('./users'));
+router.use('/', require('./users'));
 router.use('/profiles', require('./profiles'));
 router.use('/items', require('./items'));
 router.use('/tags', require('./tags'));
